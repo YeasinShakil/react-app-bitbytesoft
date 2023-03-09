@@ -1,0 +1,10 @@
+.side_bars p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: all ease-in .2s;
+}
+.side_bars p:hover{
+    color: gray;
+}
