@@ -11,7 +11,7 @@ import './sideBar.css'
 
 const SideBar = () => {
     return (
-        <div className='w-[200px] h-[450px] bg-slate-50 ml-10 mt-10 pl-5 py-5 gap-4 flex flex-col side_bars fixed'>
+        <div className='w-[200px] h-[450px] bg-slate-50 ml-10 mt-10 pl-5 py-5 gap-4 flex flex-col side_bars top-[120px] fixed'>
             <p><AiOutlineHome className=' text-gray-500'/>Dashboard</p>
             <p><AiOutlineShoppingCart className=' text-gray-500'/>Orders</p>
             <p><FaFileInvoice className=' text-gray-500'/>Invoices</p>

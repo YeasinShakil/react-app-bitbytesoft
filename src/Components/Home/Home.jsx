@@ -25,7 +25,7 @@ const Home = () => {
                 </div> */}
 
                 {
-                    products.map(product=> (<Product key={product.id} title={product.name} price={product.price} ratings={product.ratings} photo={product.img} brand={product.seller}></Product>))
+                    products.map(product=> (<Product key={product?.id} title={product?.name} price={product?.price} ratings={product?.ratings} photo={product?.img} brand={product?.seller}></Product>))
                 }
                 
             </div>
